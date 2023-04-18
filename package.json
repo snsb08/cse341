@@ -1,0 +1,19 @@
+{
+  "name": "cse341",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snsb08/cse341.git"
+  },
+  "author": "Sheyla Norton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snsb08/cse341/issues"
+  },
+  "homepage": "https://github.com/snsb08/cse341#readme"
+}
