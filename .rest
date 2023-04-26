@@ -21,7 +21,7 @@ Content-Type: application/json
   "lastName":"Norton",
   "email":"justin@email.com",
   "favoriteColor":"Blue",
-  "birthday":"07/31/1982"  
+  "birthday":"07/31"  
 }
 
 ###
@@ -37,7 +37,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/contacts/644837dafeab4c4f5d5cb78d HTTP/1.1
+DELETE http://localhost:3000/contacts/6448ad7da504ab2b1e58891c HTTP/1.1
 
 ###
 
@@ -45,3 +45,30 @@ GET https://cse341-23.onrender.com HTTP/1.1
 
 ###
 GET https://cse341-23.onrender.com/contacts HTTP/1.1
+
+###
+POST  http://cse341-23.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName":"Sheyla",
+  "lastName":"Norton",
+  "email":"shey@email.com",
+  "favoriteColor":"Turquoise",
+  "birthday":"08/04"  
+}
+
+###
+PUT http://cse341-23.onrender.com/contacts/6440a49d3ececce28cc3c834 HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Caleb",
+  "lastName": "Norton",
+  "email": "cal@email.com",
+  "favoriteColor": "green",
+  "birthday": "01/01"
+}
+
+###
+DELETE http://cse341-23.onrender.com/contacts/6448adc71ac98fe4c671f85c HTTP/1.1
