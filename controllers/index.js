@@ -1,9 +1,9 @@
-const myContact = (req, res, next) => {
-    res.json('Justin Norton');
+const myContact = (req, res) => {
+  res.json('Justin Norton');
 };
 
-const myName = (req, res, next) => {
-    res.json('Sheyla Norton');
+const myName = (req, res) => {
+  res.json('Sheyla Norton');
 };
 
-module.exports = {myContact, myName} ;
+module.exports = { myContact, myName };

@@ -9,6 +9,35 @@ GET http://localhost:3000/contacts HTTP/1.1
 ###
 GET http://localhost:3000/contacts/6440a49d3ececce28cc3c834 HTTP/1.1
 
+###
+GET http://localhost:3000/contacts/644837dafeab4c4f5d5cb78d HTTP/1.1
+
+###
+POST  http://localhost:3000/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName":"Justin",
+  "lastName":"Norton",
+  "email":"justin@email.com",
+  "favoriteColor":"Blue",
+  "birthday":"07/31/1982"  
+}
+
+###
+PUT http://localhost:3000/contacts/6440a49d3ececce28cc3c834 HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Caleb",
+  "lastName": "Norton",
+  "email": "cal@email.com",
+  "favoriteColor": "yellow",
+  "birthday": "01/01"
+}
+
+###
+DELETE http://localhost:3000/contacts/644837dafeab4c4f5d5cb78d HTTP/1.1
 
 ###
 
