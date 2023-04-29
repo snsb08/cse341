@@ -7,6 +7,9 @@ GET http://localhost:3000/me HTTP/1.1
 GET http://localhost:3000/contacts HTTP/1.1
 
 ###
+GET http://localhost:3000/api-docs HTTP/1.1
+
+###
 GET http://localhost:3000/contacts/6440a49d3ececce28cc3c834 HTTP/1.1
 
 ###
@@ -42,6 +45,9 @@ DELETE http://localhost:3000/contacts/6448ad7da504ab2b1e58891c HTTP/1.1
 ###
 
 GET https://cse341-23.onrender.com HTTP/1.1
+
+###
+GET https://cse341-23.onrender.com/api-docs HTTP/1.1
 
 ###
 GET https://cse341-23.onrender.com/contacts HTTP/1.1
